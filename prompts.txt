@@ -1,0 +1,22 @@
+Title Extraction and Abstract Generation:
+
+“Attached is a list of file names. I need them separated into two columns for text before and after the dash. For example, the first being “22nd Annual Family Law Institute” and “November 14-15, 2024.” Can you help separate them and put them into print text?”
+
+“For data in the ‘After Dash’ column, can you make another column containing such text ‘<p>Meeting proceedings of a seminar by the same name, held [event date].</p>’”?
+
+
+Keyword Matching:
+
+“iclef_2023 contains 2 columns: title and keyword. iclef_2024 contains titles only. For each title in iclef_2024 that is similar to iclef_2023, e.g., 24th Annual Indiana Property Tax Institute vs. 23rd Annual Indiana Property Tax Institute, I would like to assign the corresponding keywords to the matching titles.”
+
+
+File Aggregation for URL Generation:
+
+"I have a collection of PDF files stored in multiple nested folders on my computer. I need to prepare these files for batch upload into an institutional repository (Digital Commons), which requires all files to be placed in a single directory.
+Can you write a Python script that:
+1. Recursively searches through all subfolders within a specified source directory
+2. Identifies all PDF files
+3. Copies (not moves) those files into a single destination folder
+4. Preserves the original filenames
+5. Avoids overwriting files with the same name (e.g., by renaming duplicates)
+Please include clear comments in the code and indicate where I should specify the source and destination directory paths."
